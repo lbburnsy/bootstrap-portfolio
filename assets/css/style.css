@@ -8,6 +8,7 @@ body {
   background-color: black;
   font-family: "Big Shoulders Display", cursive;
   letter-spacing: 5px;
+  color: white;
 }
 
 /* Styles for the name div */
@@ -63,6 +64,16 @@ hr {
   );
 }
 
+.bio-container {
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 80%;
+  margin: 0 auto;
+  float: right;
+}
+
 /* Media Queries  */
 
 @media (max-width: 768px) {
@@ -80,5 +91,17 @@ hr {
 
   .header-row {
     justify-content: space-evenly !important;
+  }
+
+  .profile-image {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-image {
+    float: left;
+    width: 100%;
   }
 }
