@@ -1,18 +1,8 @@
+/* Import of google fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap");
 
-hr {
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 80%;
-  border: 0;
-  height: 2px !important;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 0, 0),
-    rgb(255, 255, 255),
-    rgb(0, 0, 0)
-  );
-}
+/* Generic body stylings */
 
 body {
   background-color: black;
@@ -20,6 +10,7 @@ body {
   letter-spacing: 5px;
 }
 
+/* Styles for the name div */
 .name {
   color: white;
   padding-top: 20px;
@@ -28,6 +19,8 @@ body {
 h1 {
     font-size: 25px;
 }
+
+/* Styles for the nav as well as links, and icons */
 
 .nav {
   padding-top: 20px;
@@ -43,16 +36,36 @@ a {
   font-size: 20px;
 }
 
-a:hover, i:hover, h1:hover {
-  color: rgb(143, 143, 143);
-  transition: .5s;
-}
-
 i {
   color: white;
   font-size: 30px;
   padding-top: 20px;
 }
+
+a:hover, i:hover, h1:hover {
+  color: rgb(143, 143, 143);
+  font-size: 25px;
+  transition: .5s;
+
+}
+
+/* Style for the hr directly under header */
+
+hr {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
+  border: 0;
+  height: 2px !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(255, 255, 255),
+    rgb(0, 0, 0)
+  );
+}
+
+/* Media Queries  */
 
 @media (max-width: 768px) {
   .name {
