@@ -48,6 +48,9 @@ a:hover, i:hover {
   transition: .5s;
 }
 
+.active {
+  border-bottom: 1px solid white;
+}
 /* Style for the hr directly under header */
 
 hr {
@@ -69,7 +72,7 @@ hr {
 }
 
 .profile-image {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   float: right;
 }
@@ -93,13 +96,6 @@ hr {
     justify-content: space-evenly !important;
   }
 
-  .profile-image {
-    float: left;
-    width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
   .profile-image {
     float: left;
     width: 100%;
