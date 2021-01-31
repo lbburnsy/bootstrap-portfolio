@@ -86,6 +86,10 @@ hr {
   border: 1px solid black;
 }
 
+.card-title-padding {
+  padding-bottom: 10px;
+}
+
 /* .mini-portfolio-container {
   margin-top: 20px;
 } */
@@ -97,12 +101,6 @@ hr {
 .form-group-padding {
   padding: 10px 0px;
 }
-
-button {
-  font-size: 30px;
-  padding: 30px;
-}
-
 
 
 /* Media Queries  */
