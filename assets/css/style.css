@@ -93,6 +93,18 @@ hr {
 .margin-top {
   margin-top: 60px;
 }
+
+.form-group-padding {
+  padding: 10px 0px;
+}
+
+button {
+  font-size: 30px;
+  padding: 30px;
+}
+
+
+
 /* Media Queries  */
 
 @media (max-width: 768px) {
