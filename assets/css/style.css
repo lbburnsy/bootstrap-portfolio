@@ -147,4 +147,9 @@ footer {
   footer {
     visibility: visible;
   }
+
+  .absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
 }
