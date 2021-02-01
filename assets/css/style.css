@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* Styles for the nav as well as links, and icons */
@@ -47,9 +47,10 @@ i {
   padding-top: 20px;
 }
 
-a:hover, i:hover {
+a:hover,
+i:hover {
   color: rgb(116, 116, 116);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .active {
@@ -71,6 +72,8 @@ hr {
   );
 }
 
+/* Styles for the bio and image container on index.html */
+
 .bio-container {
   margin-top: 60px;
   width: 80%;
@@ -82,9 +85,13 @@ hr {
   float: right;
 }
 
+/* Styles for paragraphs */
+
 p {
   font-size: 20px;
 }
+
+/* Styles for cards on both index and portfolio.html */
 
 .card-body {
   background-color: black;
@@ -95,13 +102,13 @@ p {
   padding-bottom: 10px;
 }
 
-/* .mini-portfolio-container {
-  margin-top: 20px;
-} */
+/* Sets a reusable margin top property */
 
 .margin-top {
   margin-top: 60px;
 }
+
+/* Form stylings on contact.html */
 
 .form-group-padding {
   padding: 10px 0px;
@@ -111,12 +118,13 @@ textarea {
   height: 150px;
 }
 
+/* Hides the footer until the 768px breakpoint */
+
 footer {
   visibility: hidden;
 }
 
-
-/* Media Queries  */
+/* Media Query - changes styling at 768px viewport width  */
 
 @media (max-width: 768px) {
   .name {
