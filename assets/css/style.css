@@ -48,7 +48,7 @@ i {
 }
 
 a:hover, i:hover {
-  color: rgb(143, 143, 143);
+  color: rgb(116, 116, 116);
   transition: .5s;
 }
 
@@ -105,6 +105,10 @@ p {
 
 .form-group-padding {
   padding: 10px 0px;
+}
+
+textarea {
+  height: 150px;
 }
 
 footer {
